@@ -1,0 +1,19 @@
+#track {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+        display: flex;
+        gap: 1vw;
+    }
+
+    padding: 2vh 1vh;
+    border-radius: .3vw;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(128, 128, 128, 0.2);
+    }
+}

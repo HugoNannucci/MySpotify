@@ -1,0 +1,32 @@
+#AlbumCard {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #1c1c1c;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    img {
+        height: 160px;
+        border-radius: .3vw;
+    }
+
+    .name {
+
+    }
+
+    .description {
+        color: grey;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &:hover {
+        background-color: #282828;
+    }
+}

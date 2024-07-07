@@ -1,0 +1,15 @@
+#GenreDetail {
+    padding: 2vw;
+
+    .title {
+        font-size: 2vw;
+    }
+
+    .albums {
+        margin-top: 2vw;
+
+        display: grid;
+        grid-template-columns: repeat(7, 160px);
+        gap: 2.5vw;
+    }
+}

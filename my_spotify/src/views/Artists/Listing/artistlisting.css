@@ -1,0 +1,16 @@
+.artist-listing_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    gap: 70px;
+    align-items: center;
+}
+.artist_link{
+    width: 100%;
+    text-decoration: none;
+}
+
+.artist_link:hover{
+    transform: scale(1.05);
+}

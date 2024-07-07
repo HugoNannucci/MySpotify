@@ -1,0 +1,72 @@
+#NavBar {
+    margin: 15px;
+    border-radius: .3vw;
+    background-color: #1a1a1a;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+    .app_name {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 1.5vw;
+
+        img {
+            width: 8vw;
+        }
+    }
+
+    .lists {
+        padding: 0 1.5vw;
+
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+        .categories {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5vh;
+
+            .items {
+                cursor: pointer;
+
+                color: #b3b3b3;
+                font-size: .85vw;
+
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                gap: 1vw;
+
+                .icons {
+                    transition: all .3s;
+                    width: 1.5vw;
+                    fill: #b3b3b3;
+                }
+
+                &.active {
+                    color: white;
+                    .icons {
+                        fill: white;
+                    }
+                }
+
+                transition: all .3s;
+
+                &:hover {
+                    color: white;
+
+                    .icons {
+                        fill: white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#GenreListing {
+    padding: 2vw;
+
+    .title {
+        font-size: 2vw;
+    }
+
+    .lists {
+        margin-top: 2vw;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5vw;
+    }
+}

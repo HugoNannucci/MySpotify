@@ -1,0 +1,17 @@
+.album-container{
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 20px;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0px 25px 15px 10px black;
+    text-decoration: none;
+    color: white;
+}
+
+.album-container__img{
+    border-radius: 10px;
+    overflow: hidden;
+}

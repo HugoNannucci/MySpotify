@@ -1,0 +1,32 @@
+.artist-container{
+    width: 70%;
+    border: solid;
+    border-radius: 20px;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0px 25px 15px 10px black;
+    text-decoration: none;
+    color: white;
+}
+
+.artist_profil{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.img-container{ 
+    width: 10vw;
+    height: 10vw;
+    border: solid 2px white;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
